@@ -26,7 +26,7 @@ transform = (content) ->
         "transform-es2015-for-of",
         'external-helpers-2',
         [require('fbjs-scripts/babel-6/inline-requires')],
-        [require('./_system-import')]
+        [require('../helper/_system-import')]
     ];
 
     plugins = plugins.map (plugin) ->
